@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Sintony";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 
 * {
   box-sizing: border-box;
@@ -41,127 +42,459 @@ header {
 }
 
 .section:nth-child(1) {
-  background-image: url("./static/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://static.thairath.co.th/media/dFQROr7oWzulq5Fa4MVgZp3YZSBVZTYC7K9k7iKwDNMnMWUITlA5zlFqbyEfxyMR15s.jpg");
   background-color: #fff;
-  color: #000;
+  font-size: large;
+  color: rgb(0, 0, 0);
   top: 0;
   z-index: 1;
 }
 .section:nth-child(1) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(2) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #c2850a;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954334146723983440/bkk-old-quaters.png");
+  color: rgb(0, 0, 0);
   top: 100vh;
   z-index: 2;
 }
 .section:nth-child(2) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(3) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0a0ac2;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954339430230003772/bangkok-climate.png?width=1374&height=676");
+  /* background-image: url("https://f.ptcdn.info/182/025/000/1415021872-pantip1-o.gif"); */
+  color: rgb(0, 0, 0);
   top: 200vh;
   z-index: 3;
 }
 .section:nth-child(3) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(4) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #85c20a;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954341226197422120/walkingbkkmap5.png?width=932&height=676");
+  color: rgb(0, 0, 0);
   top: 300vh;
   z-index: 4;
 }
 .section:nth-child(4) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(5) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #850ac2;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954341919910166580/19real-bangkok-chinatown02-inyt-videoSixteenByNineJumbo1600.png?width=1202&height=676");
+  color: rgb(0, 0, 0);
   top: 400vh;
   z-index: 5;
 }
 .section:nth-child(5) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(6) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0ac20a;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954343682478334012/bangkok-top-view-plane-30967104.png");
+  color: rgb(0, 0, 0);
   top: 500vh;
   z-index: 6;
 }
 .section:nth-child(6) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(7) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #c20a85;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954344535998230528/photo-1510380097750-835f6f8e11ea.png?width=1014&height=676");
+  color: rgb(0, 0, 0);
   top: 600vh;
   z-index: 7;
 }
 .section:nth-child(7) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(8) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0ac285;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954346680814288996/7d32fd06b246b09319766e76fadb6910.png");
+  color: rgb(0, 0, 0);
   top: 700vh;
   z-index: 8;
 }
 .section:nth-child(8) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(9) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #c20a0a;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://media.discordapp.net/attachments/939231737488228375/954335488314064906/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.png?width=1015&height=676");
+  color: rgb(0, 0, 0);
   top: 800vh;
   z-index: 9;
 }
 .section:nth-child(9) .fixed {
   transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .section:nth-child(10) {
-  background-color: #000;
-  color: #fff;
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  background-image: url("https://f.ptcdn.info/182/025/000/1415021872-pantip1-o.gif");
+  color: rgb(0, 0, 0);
   top: 900vh;
   z-index: 10;
 }
 .section:nth-child(10) .fixed {
   transform: translate(-50%, -50%);
-}
-
-.section:nth-child(11) {
-  background-color: rgb(173, 57, 57);
-  color: rgb(0, 0, 0);
-  top: 1000vh;
-  z-index: 11;
-}
-.section:nth-child(11) .fixed {
-  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 5%;
 }
 
 .oop {
   position: relative;
   z-index: auto;
   height: 10px;
-  background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
+  background: linear-gradient(141deg, #ff0000 0%, #0026ff 51%, #e82c75 75%);
+}
+
+.card {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
+  height: 350px;
+  overflow: hidden;
+  perspective: 1200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translatez(35px);
+  transition: transform 200ms ease-out;
+  width: 275px;
+  text-align: center;
+}
+
+.card__text {
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+  bottom: 0;
+  flex-direction: column;
+  height: 70px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#scene {
+  background-color: #304056;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.layer {
+  pointer-events: none;
+}
+.col {
+  font-size: 8px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 10%;
+  pointer-events: all;
+  overflow: initial;
+  margin: 0 0 30px;
+}
+.layer.main {
+  width: 150%;
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+}
+.col a {
+  display: block;
+  margin: 15px;
+  overflow: hidden;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.37);
+}
+.col a .hover {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: -15px;
+  left: 15px;
+  z-index: 1;
+  color: white;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.47) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78000000', endColorstr='#00000000',GradientType=1 );
+}
+.col a .hover:after {
+  content: "";
+  position: absolut;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgb(235, 116, 152);
+  opacity: 0;
+  transition: 0.35s ease;
+}
+.col a .hover:hover:after {
+  opacity: 0.85;
+  transition: 0.35s ease;
+}
+.align-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  z-index: 2;
+  padding: 15px 20px;
+}
+.bg-img {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .layer .col {
+    width: 16.666%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .layer .col {
+    width: 25%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+html,
+body {
+  height: 100%;
+}
+
+h3 {
+  color: #eb285d;
+  font-size: 16px;
+  margin-bottom: 6px;
+  transform: translateZ(25px);
+}
+
+.cards {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
+  display: inline-block;
+  padding: 30px 35px;
+  perspective: 1800px;
+  text-align: left;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+  transform: rotateX(11deg) rotateY(16.5deg);
+  min-width: 595px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  height: 250px;
+  overflow: hidden;
+  perspective: 1200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translatez(35px);
+  transition: transform 200ms ease-out;
+  width: 175px;
+  text-align: center;
+}
+.card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.card__img {
+  position: relative;
+  height: 100%;
+}
+
+.card__bg {
+  bottom: -50px;
+  left: -50px;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  transform-origin: 50% 50%;
+  transform: translateZ(-50px);
+  z-index: 0;
+}
+
+.card__one .card__img {
+  top: 14px;
+  right: -10px;
+  height: 110%;
+}
+.card__one .card__bg {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_monobg.jpg")
+    center/cover no-repeat;
+}
+.card__two .card__img {
+  top: 25px;
+}
+.card__two .card__bg {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_spirited.jpg")
+    center/cover no-repeat;
+}
+.card__three .card__img {
+  top: 5px;
+  left: -4px;
+  height: 110%;
+}
+.card__three .card__bg {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_howlbg.jpg")
+    center/cover no-repeat;
+}
+.card__text {
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.card__title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 10px;
+  margin-bottom: 3px;
+}
+
+.notice {
+  background: gold;
+  border-top-left-radius: 6px;
+  bottom: 0;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 8px 10px;
+  position: absolute;
+  right: -20px;
+}
+
+.twitter__link {
+  cursor: pointer;
+  position: absolute;
+  right: -10px;
+  top: 12px;
+  z-index: -1;
+  background: #00aced;
+  border-radius: 20px;
+  height: 30px;
+  text-decoration: none;
+  padding-right: 10px;
+  justify-content: space-between;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  width: 74px;
+  opacity: 0.4;
+}
+.twitter__link:hover {
+  opacity: 1;
+}
+
+.twitter__icon {
+  height: 30px;
 }
